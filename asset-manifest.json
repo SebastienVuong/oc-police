@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/SebastienVuong/oc-police/static/css/main.0da52582.chunk.css",
-    "main.js": "/SebastienVuong/oc-police/static/js/main.584411bb.chunk.js",
-    "main.js.map": "/SebastienVuong/oc-police/static/js/main.584411bb.chunk.js.map",
-    "runtime~main.js": "/SebastienVuong/oc-police/static/js/runtime~main.636f07a7.js",
-    "runtime~main.js.map": "/SebastienVuong/oc-police/static/js/runtime~main.636f07a7.js.map",
-    "static/js/2.42e49e32.chunk.js": "/SebastienVuong/oc-police/static/js/2.42e49e32.chunk.js",
-    "static/js/2.42e49e32.chunk.js.map": "/SebastienVuong/oc-police/static/js/2.42e49e32.chunk.js.map",
-    "index.html": "/SebastienVuong/oc-police/index.html",
-    "precache-manifest.d54dbe5951950057b61a7e0f476d9567.js": "/SebastienVuong/oc-police/precache-manifest.d54dbe5951950057b61a7e0f476d9567.js",
-    "service-worker.js": "/SebastienVuong/oc-police/service-worker.js",
-    "static/css/main.0da52582.chunk.css.map": "/SebastienVuong/oc-police/static/css/main.0da52582.chunk.css.map",
-    "static/media/logo.svg": "/SebastienVuong/oc-police/static/media/logo.5d5d9eef.svg"
+    "main.css": "/oc-police/static/css/main.0da52582.chunk.css",
+    "main.js": "/oc-police/static/js/main.bc202c74.chunk.js",
+    "main.js.map": "/oc-police/static/js/main.bc202c74.chunk.js.map",
+    "runtime~main.js": "/oc-police/static/js/runtime~main.a5ef8e17.js",
+    "runtime~main.js.map": "/oc-police/static/js/runtime~main.a5ef8e17.js.map",
+    "static/js/2.42e49e32.chunk.js": "/oc-police/static/js/2.42e49e32.chunk.js",
+    "static/js/2.42e49e32.chunk.js.map": "/oc-police/static/js/2.42e49e32.chunk.js.map",
+    "index.html": "/oc-police/index.html",
+    "precache-manifest.07c5d5b23bc520d47b0f224760bb3e4b.js": "/oc-police/precache-manifest.07c5d5b23bc520d47b0f224760bb3e4b.js",
+    "service-worker.js": "/oc-police/service-worker.js",
+    "static/css/main.0da52582.chunk.css.map": "/oc-police/static/css/main.0da52582.chunk.css.map",
+    "static/media/logo.svg": "/oc-police/static/media/logo.5d5d9eef.svg"
   }
 }
