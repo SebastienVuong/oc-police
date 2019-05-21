@@ -15,7 +15,6 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    console.log("DidMount");
     Api.authenticate();
     this._getEvents();
   }
@@ -82,11 +81,13 @@ class App extends React.Component {
 
   _getAttendeeEmail = event => {
     let output = "< No email >";
-    event.attendees.forEach(attendee => {
-      if (attendee.email !== "jon@montrealoutrigger.com") {
-        output = attendee.email;
-      }
-    });
+    if (event.attendees) {
+      event.attendees.forEach(attendee => {
+        if (attendee.email !== "jon@montrealoutrigger.com") {
+          output = attendee.email;
+        }
+      });
+    }
     return output;
   };
 
@@ -103,8 +104,7 @@ class App extends React.Component {
             onClick={() => {
               const delinquents = Utils.getAllGunJumpers(this.state.events);
               delinquents.forEach(event => {
-                console.log(event);
-                // Api.deleteEvent(event.id);
+                Api.deleteEvent(event.id);
               });
             }}
           >
