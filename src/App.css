@@ -1,22 +1,22 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: seashell;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: navy;
 }
 
 .App-link {
@@ -30,4 +30,64 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button {
+  background-color: lightblue;
+  border: thin solid blue;
+  box-shadow: 5px 5px 5px 0px rgba(153, 153, 153, 1);
+  border-radius: 100px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.events {
+}
+
+.date-title {
+  font-size: 24px;
+  color: dimgrey;
+  text-align: left;
+  margin: 30px 0 10px 30px;
+}
+
+.list-card {
+  width: 800px;
+  height: 120px;
+  padding: 0px 25px;
+  margin: 15px;
+
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px rgba(153, 153, 153, 1);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+
+  /* cursor: pointer; */
+}
+
+.list-card.delinquent {
+  border: thin solid orangered;
+  background-color: peachpuff;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row .text {
+  color: grey;
+  margin: 0;
+  font-size: 12px;
+}
+
+.first-row.text {
+  color: navy;
 }
