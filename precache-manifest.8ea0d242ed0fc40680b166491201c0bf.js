@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3ca2fba626e76c3ce05ea4c31e1a1fd9",
+    "revision": "2728bb5e7ea10660e1c5bf38eb335db5",
     "url": "/oc-police/index.html"
   },
   {
-    "revision": "3cb0557252984f1a5cb1",
+    "revision": "2287c5f2fe5f1784661b",
     "url": "/oc-police/static/css/main.0da52582.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/oc-police/static/js/2.42e49e32.chunk.js"
   },
   {
-    "revision": "3cb0557252984f1a5cb1",
-    "url": "/oc-police/static/js/main.bc202c74.chunk.js"
+    "revision": "2287c5f2fe5f1784661b",
+    "url": "/oc-police/static/js/main.49aa5714.chunk.js"
   },
   {
     "revision": "56db907d4b0f065f27b9",
