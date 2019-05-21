@@ -71,7 +71,12 @@ class Api {
       eventId: eventId
     });
     return request.execute(res => {
-      if (res) alert("Event deleted!");
+      console.log(res);
+      if (!res.error) {
+        alert("Booking deleted!");
+      } else {
+        alert("Not logged in!");
+      }
     });
   };
 }
